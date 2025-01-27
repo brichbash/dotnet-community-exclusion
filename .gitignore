@@ -1,0 +1,83 @@
+# Ignore build folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider/JetBrains specific files
+.idea/
+*.sln.iml
+
+# Visual Studio Code specific files
+.vscode/
+
+# Build files
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+*.msi
+*.app
+*.zip
+*.dmg
+*.pkg
+*.tar.gz
+*.ipch
+*.obj
+
+# Debug specific files
+debug.log
+error.log
+
+# Dependency directories
+node_modules/
+coverage/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+*.swp
+*.swo
+
+# Resharper files
+_ReSharper*/
+*.DotSettings.user
+
+# ASP.NET Core
+wwwroot/
+
+# Environment Tag
+.env
+
+# Configuration files
+appsettings.*
+secret.config
+
+# Publish directory
+publish/
+out/
+
+# git directory itself
+.git/

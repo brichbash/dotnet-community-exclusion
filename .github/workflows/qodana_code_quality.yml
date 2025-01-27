@@ -21,4 +21,4 @@ jobs:
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
         with: 
-          args: '-l,jetbrains/qodana-cdnet:2024.3-eap,--config,new_qodana.yaml'
+          args: '-l,jetbrains/qodana-cdnet:2024.3-eap,--config,./qodana.yaml'

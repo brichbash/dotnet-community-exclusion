@@ -3,5 +3,6 @@ linter: jetbrains/qodana-cdnet:2024.3-eap
 profile:
   name: qodana.recommended
 failThreshold: 0
+solution: qd-10819.sln
 bootstrap: |
   curl -fsSL https://dot.net/v1/dotnet-install.sh | bash -s -- -v 9.0.101 -i /usr/share/dotnet
